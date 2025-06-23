@@ -1,0 +1,70 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-section input,
+.input-section select {
+  padding: 10px;
+  width: 100%;
+}
+
+.input-section button {
+  padding: 10px 15px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.input-section button:hover {
+  background: #45a049;
+}
+
+.summary p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+#transaction-list {
+  list-style: none;
+  padding: 0;
+}
+
+#transaction-list li {
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+
+.income-item {
+  background-color: #e6ffe6;
+  color: green;
+}
+
+.expense-item {
+  background-color: #ffe6e6;
+  color: red;
+}
